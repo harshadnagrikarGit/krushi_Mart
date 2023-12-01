@@ -1,0 +1,41 @@
+.backgr {
+    background-image:linear-gradient(to right , rgb(170, 174, 175),rgb(144, 224, 249),rgb(173, 170, 170));
+    
+}
+
+#sbmt:hover  {
+   transform:scale(1.2);
+   color: black;
+
+} 
+#sbmt {
+    border:2px solid
+}  
+fieldset {
+    border: 5px solid black;;
+}
+.form {
+margin-left :20px
+
+}
+#regimage {  
+    margin-left :810px;
+    margin-top: -425px;
+    height: 425px;
+    width: 710px;
+    background-color: rgb(247, 67, 82);
+    border-style: 5px solid rgb(247, 67, 82); ;  
+}
+#imglogo {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.main_div {
+    background-image :linear-gradient(to right, rgb(231, 231, 248),rgb(218, 218, 222))
+}
+#signhead {
+    margin-left: 200px;
+}
+#signhead:hover {
+    color: darkgreen;
+}

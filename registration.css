@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.maindiv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: none;
+}
+#bgimg{
+    background-image: url('https://t3.ftcdn.net/jpg/05/46/95/22/360_F_546952278_HeZw54p3O90DBAobPXYVrbpuavPNv63B.jpg');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: 8% 115%;
+}
+
+.applogo{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.logoimg{
+    height: 150px;
+}
+.mart{
+    font-size: 40px;
+    font-family: Arial rgb(0, 0, 0);
+    color: rgb(242, 44, 44)8, 73, 0);
+    margin-top: -90px;
+    margin-left: 150px;
+}
+.cards{
+    height: 300px;
+    width: 60%;
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    top: -50px;
+     left: 650px;
+}
+.cardreg{
+    height: 250px;
+    width:300px;
+    display: grid;
+    margin-right: 30px;
+    border-radius: 30px;
+    transition-duration: 1s;
+    box-shadow: 0 0 2px grey;
+    margin-left: 75px;
+
+}
+.cardreg:hover{
+    box-shadow: 0 0 10px grey;
+}
+.tracking-in-expand {
+          -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.320) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          color: rgb(2, 59, 2);
+
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+ 
+
+.common-card div img{
+    margin: 20px;
+  }
+  .heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: royalblue;
+    margin-top: 10px;
+  }
+  .signup{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(240, 69, 69);
+    margin-bottom: 5px;
+    line-height: 40px;
+    border-radius: 20px;
+    transition-duration: 1s;
+  }
+  .signup:hover{
+    transform: scale(0.9);
+  }
+  a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial Black;
+    font-size: 20px;
+  }
+  .main_div {
+    background-image: linear-gradient(to right, rgb(2, 69, 2),rgb(10, 148, 10),rgb(187, 239, 187),rgb(228, 240, 228) );
+  }
+  
