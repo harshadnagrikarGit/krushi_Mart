@@ -1,0 +1,50 @@
+#main_div {
+    border: 5px solid rgb(68, 67, 67);
+    width: 650px;
+    height: 350px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20221201/pngtree-palm-leaf-in-flower-pot-image_1480586.jpg");
+  
+    margin-left:  40px;
+    margin-top: 60px;
+}
+#head_div {
+    font-size: 50px;
+    color: rgb(1, 39, 3);
+   padding-top: 70px;
+   padding-left: 150px; 
+   margin-top: 28px;
+   margin-left: 50px;
+}
+.complete {
+    background-image: linear-gradient(360deg,rgb(246, 223, 223),lightblue,rgb(168, 212, 246),rgb(161, 227, 249));
+   
+}
+#sec_div {
+    border: 5px solid rgb(59, 58, 58);
+   background-color: rgb(208, 225, 224);
+   width: 650px ;
+   height: 350px;
+    margin-left: 780px;
+    margin-top: -350px;
+}
+#sec_div p {
+    color: rgb(115, 115, 116);
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 60px;
+    padding-top: 22px;
+
+}
+#sec_div p span {
+    word-spacing: 28px;
+    letter-spacing: 2px;
+}
+#head_div {
+    font-size: 60px;
+    color: rgb(141, 139, 139);
+    margin-left: -60px;
+    margin-top: -10px;
+}
+#head_div:hover {
+    color: green;
+}

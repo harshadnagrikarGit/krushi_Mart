@@ -1,0 +1,39 @@
+
+#frame1 {
+    margin-top: 50px;
+    margin-left: 50px;
+
+ }
+ list {
+    margin-left: 100px;
+    align-items: center;
+    align-content: center;
+ }
+div ul li a{
+    margin-left :100px ;
+    padding-left: 240px;
+    color: black;
+   font-weight: bolder;
+    
+}
+#navbarSupportedContent {
+    background-color: lightblue;
+    font-size: 20px;
+  
+}
+.frame1 {
+  margin-top: 80px;
+  margin-left: 550px;
+}
+h5 {
+  margin-left: 80px;
+}
+.bd {
+  background-image: linear-gradient(360deg,rgb(246, 223, 223),lightblue,rgb(168, 212, 246),rgb(161, 227, 249));
+}
+#head:hover {
+
+  color: darkgreen;
+  animation-duration: 2s;
+
+}
